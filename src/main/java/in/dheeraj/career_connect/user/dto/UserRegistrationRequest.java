@@ -1,6 +1,6 @@
 package in.dheeraj.career_connect.user.dto;
 
-import in.dheeraj.career_connect.user.entity.UserRole;
+import in.dheeraj.career_connect.user.enums.UserRole;
 import lombok.Data;
 
 @Data

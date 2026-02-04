@@ -1,5 +1,6 @@
 package in.dheeraj.career_connect.user.entity;
 
+import in.dheeraj.career_connect.user.enums.UserRole;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,7 +17,7 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
 
     private String first_name;
 
@@ -27,6 +28,5 @@ public class User {
     private String email;
 
     private String password;
-
 
 }

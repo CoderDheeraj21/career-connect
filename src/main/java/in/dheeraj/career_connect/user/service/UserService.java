@@ -3,7 +3,7 @@ package in.dheeraj.career_connect.user.service;
 import in.dheeraj.career_connect.user.dto.UserRegistrationRequest;
 import in.dheeraj.career_connect.user.dto.UserResponse;
 import in.dheeraj.career_connect.user.entity.User;
-import in.dheeraj.career_connect.user.entity.UserRole;
+import in.dheeraj.career_connect.user.enums.UserRole;
 import in.dheeraj.career_connect.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;

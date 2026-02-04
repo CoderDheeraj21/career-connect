@@ -1,4 +1,4 @@
-package in.dheeraj.career_connect.user.entity;
+package in.dheeraj.career_connect.user.enums;
 
 public enum UserRole {
 
