@@ -1,10 +1,10 @@
-package in.dheeraj.career_connect.user.service;
+package in.dheeraj.career_connect.service;
 
-import in.dheeraj.career_connect.user.dto.UserRegistrationRequest;
-import in.dheeraj.career_connect.user.dto.UserResponse;
-import in.dheeraj.career_connect.user.entity.User;
-import in.dheeraj.career_connect.user.enums.UserRole;
-import in.dheeraj.career_connect.user.repository.UserRepository;
+import in.dheeraj.career_connect.dto.UserRegistrationRequest;
+import in.dheeraj.career_connect.dto.UserResponse;
+import in.dheeraj.career_connect.entity.User;
+import in.dheeraj.career_connect.enums.UserRole;
+import in.dheeraj.career_connect.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

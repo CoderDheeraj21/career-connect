@@ -1,4 +1,4 @@
-package in.dheeraj.career_connect.user.controller;
+package in.dheeraj.career_connect.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

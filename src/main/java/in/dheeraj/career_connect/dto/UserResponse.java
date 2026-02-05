@@ -1,4 +1,4 @@
-package in.dheeraj.career_connect.user.dto;
+package in.dheeraj.career_connect.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class UserResponse {
 
-    private Integer id;
+    private Long id;
     private String firstName;
     private String lastName;
     private String email;

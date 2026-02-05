@@ -1,8 +1,9 @@
-package in.dheeraj.career_connect.user.controller;
+package in.dheeraj.career_connect.controller;
 
-import in.dheeraj.career_connect.user.dto.UserRegistrationRequest;
-import in.dheeraj.career_connect.user.dto.UserResponse;
-import in.dheeraj.career_connect.user.service.UserService;
+import in.dheeraj.career_connect.dto.UserRegistrationRequest;
+import in.dheeraj.career_connect.dto.UserResponse;
+import in.dheeraj.career_connect.service.UserService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +19,7 @@ public class UserController {
 
     @PostMapping("/register")
     public ResponseEntity<UserResponse> register(
-            @RequestBody UserRegistrationRequest request
+           @Valid @RequestBody UserRegistrationRequest request
     ) {
         UserResponse response = userService.register(request);
         return new ResponseEntity<>(response, HttpStatus.CREATED);

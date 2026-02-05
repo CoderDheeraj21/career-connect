@@ -1,4 +1,4 @@
-package in.dheeraj.career_connect.user.enums;
+package in.dheeraj.career_connect.enums;
 
 public enum JobStatus {
     OPEN,

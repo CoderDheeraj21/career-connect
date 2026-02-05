@@ -1,6 +1,6 @@
-package in.dheeraj.career_connect.user.repository;
+package in.dheeraj.career_connect.repository;
 
-import in.dheeraj.career_connect.user.entity.User;
+import in.dheeraj.career_connect.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,10 +1,7 @@
-package in.dheeraj.career_connect.user.entity;
+package in.dheeraj.career_connect.entity;
 
-import in.dheeraj.career_connect.user.enums.UserRole;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import in.dheeraj.career_connect.enums.UserRole;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -23,10 +20,10 @@ public class User {
 
     private String last_name;
 
+    @Enumerated(EnumType.STRING)
     private UserRole userRole;
 
     private String email;
 
     private String password;
-
 }

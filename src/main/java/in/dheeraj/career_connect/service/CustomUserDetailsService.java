@@ -1,7 +1,7 @@
-package in.dheeraj.career_connect.user.service;
+package in.dheeraj.career_connect.service;
 
-import in.dheeraj.career_connect.user.entity.User;
-import in.dheeraj.career_connect.user.repository.UserRepository;
+import in.dheeraj.career_connect.entity.User;
+import in.dheeraj.career_connect.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

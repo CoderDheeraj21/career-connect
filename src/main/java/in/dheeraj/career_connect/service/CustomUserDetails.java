@@ -1,6 +1,9 @@
-package in.dheeraj.career_connect.user.service;
+package in.dheeraj.career_connect.service;
 
-import in.dheeraj.career_connect.user.entity.User;
+import in.dheeraj.career_connect.entity.User;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.jspecify.annotations.Nullable;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -9,6 +12,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.List;
 
+@Data
 public class CustomUserDetails implements UserDetails {
 
     private User user;
